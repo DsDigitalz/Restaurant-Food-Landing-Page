@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: space-between;
   /* background-color: aqua;  */
-  /* max-width: 1300px; */
+  max-width: 2500px;
   margin-top: 38px;
   margin-left: 71.5px;
   margin-right: 68.5px;
@@ -136,6 +136,8 @@ body {
 
 .section-container{
   margin-top: 100px;
+ 
+  padding: 0 20px;
 }
 
 .main-container1 {
@@ -145,7 +147,8 @@ body {
   /* flex-direction: column; */
   margin-top: 111.14px;
   margin-left: 120.5px;
-
+ max-width: 1440px;
+margin: 0 auto;
   width: 90%;
 }
 
@@ -746,7 +749,7 @@ scale: 1.01;
 .descr {
   display: flex;
   margin-top: 150px;
-  margin-left: 71.5px;
+  /* margin-left: 71.5px; */
   justify-content: center;
   gap: 100px;
   opacity: 1;
